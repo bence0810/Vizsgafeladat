@@ -1,0 +1,278 @@
+@font-face {
+	src: url(../font/MyriadProCond.ttf);
+	font-family: Myriad;
+}
+@font-face {
+		src: url(../font/RobotoCondensed-Light.ttf);
+		font-family: RobotoCondensed-Light;
+}
+
+h1 mark {
+	color: white;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	color: #00D936;
+}
+
+
+
+.green {
+	background-color: #00D936;
+}
+
+
+
+.zold {
+	font-family: RobotoCondensed-Light;
+	padding: 10px;
+	/*background-color: #00D936;*/
+	margin-bottom: 5%;
+
+}
+
+
+/*..........navigatio..........*/
+
+
+.navbar-default {
+	color: #00D936;
+}
+
+
+.navbar-default .navbar-toggle {
+	border-color: #00D936;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #00D936;
+}
+.nav {
+	font-family: RobotoCondensed-Light;
+	background: -webkit-linear-gradient(top, #5e5e5e 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #5e5e5e 0%,#000000 100%); 
+} 
+
+.szurke {
+	background: -webkit-linear-gradient(top, #5e5e5e 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #5e5e5e 0%,#000000 100%); 
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	border: none;
+}
+
+.nav li a {
+	padding: 16px 30px;
+	font-size: 20px;
+}
+
+.navbar-default .navbar-brand {
+	background-color: #00D936;
+	color: white;
+}
+
+.navbar-default .navbar-nav li a {
+	color: white;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #00D936;
+}
+
+.navbar-default .navbar-nav li{
+	border-left: solid 0.5px black;
+	border-right: solid 0.5px black;
+}
+
+.navbar-default .navbar-nav li:hover {
+	background: -webkit-linear-gradient(bottom, #5e5e5e 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to top, #5e5e5e 0%,#000000 100%);
+}
+/*..........carousel..........*/
+
+.carousel-inner h1 {
+	color:	#00D936;
+
+}
+.carousel-inner p {
+	font-family: RobotoCondensed-Light;
+	font-size: 16px;
+}
+.carousel-caption{
+	width: 100%;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding-bottom: 7%;
+	padding-top: 6%;
+	background-color: rgba(0, 0, 0, 0.22)
+}
+
+/*..........top div..........*/
+
+
+.top {
+	background-image: url(img/dark-mosaic.png);
+	padding-top: 5%;
+	padding-bottom: 5%;
+	font-family: RobotoCondensed-Light;
+}
+
+.top p {
+	 color: #DEDAD9;
+	 float: right;
+	 font-size: 25px;
+}
+
+.top h2 {
+	color: #DEDAD9;
+	font-size: 25px;
+}
+
+.space {
+	padding-bottom: 2%;
+}
+
+/*..........mid div..........*/
+
+
+.mid img {
+	border:solid 1px #c1c1c1;
+}
+
+.mid {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-image: url(img/paper-mosaic.png);
+
+}
+.mid p {
+	float: right;
+	font-size: 25px;
+	font-family: Myriad;
+
+}
+.mid h2 {
+	font-family: RobotoCondensed-Light;
+	font-size: 25px;
+}
+
+/*..........bottom div..........*/
+
+
+.bottom img {
+	border:solid 1px #c1c1c1;
+}
+
+.bottom {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: white;
+}
+
+.bottom button {
+	text-align: center;
+	background-color: white;
+	border:solid 0.5px #00D936;
+	color: #00D936;
+	margin: auto;
+}
+
+.bottom h2 {
+	color: #00D936;
+}
+
+.bottom p {
+	margin-top: 10px;
+
+}
+
+/*..........footer div..........*/
+
+
+footer ul li {
+	list-style-type: none;
+}
+
+.panel-footer h3 {
+	font-family: RobotoCondensed-Light;	
+}
+.panel-footer {
+	padding: 5%;
+	border: none;
+	background-color: black;
+}
+
+.btn {
+	background-color: #00D936;
+	border-radius: 0px;
+}
+
+.btn-success {
+	margin-bottom: 5%;
+}
+
+.btn-block {
+    display: block;
+    width: 35%;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+form p {
+	color: grey;
+}
+
+.list-group {
+	list-style-type: : none;
+	text-decoration: none;
+}
+
+.list-group a {
+	font-size: 16px;
+	color: grey;
+}
+
+.list-group a:hover {
+	color: #00D936;
+	background-color: transparent;
+}
+
+.list-group-item:last-child{
+	border-radius: 0px;
+}
+
+.list-group-item:first-child {
+	border-radius: 0px;
+}
+
+.label {
+	float: left;
+	margin: 3px;
+	padding: 9px;
+}
+
+.float-left {
+	float: left;
+}
+
+.list-group-item {
+	border: none;
+	border-radius: none;
+	background-color: black;
+	border-bottom: solid 1px grey;
+	padding-top: 7%;
+	padding-bottom: 7%;
+}
+
+form img {
+	margin-top: 40%;
+}
