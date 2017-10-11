@@ -32,13 +32,12 @@ img {
 .zold {
 	font-family: RobotoCondensed-Light;
 	padding: 10px;
-	/*background-color: #00D936;*/
 	margin-bottom: 5%;
 
 }
 
 
-/*..........navigatio..........*/
+/*..........navigation..........*/
 
 
 .navbar-default {
@@ -54,13 +53,12 @@ img {
 }
 .nav {
 	font-family: RobotoCondensed-Light;
-	background: -webkit-linear-gradient(top, #5e5e5e 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(top, #5e5e5e 0%,#000000 100%); 
 	background: linear-gradient(to bottom, #5e5e5e 0%,#000000 100%); 
 } 
 
 .szurke {
-	background: -webkit-linear-gradient(top, #5e5e5e 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #5e5e5e 0%,#000000 100%); 
+	background: -webkit-linear-gradient(top, #5e5e5e 0%,#000000 100%); 
 }
 
 .navbar {
@@ -93,9 +91,10 @@ img {
 }
 
 .navbar-default .navbar-nav li:hover {
-	background: -webkit-linear-gradient(bottom, #5e5e5e 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -webkit-linear-gradient(bottom, #5e5e5e 0%,#000000 100%); 
 	background: linear-gradient(to top, #5e5e5e 0%,#000000 100%);
 }
+
 /*..........carousel..........*/
 
 .carousel-inner h1 {
@@ -104,7 +103,8 @@ img {
 }
 .carousel-inner p {
 	font-family: RobotoCondensed-Light;
-	font-size: 16px;
+	font-size: 20px;
+
 }
 .carousel-caption{
 	width: 100%;
@@ -114,6 +114,7 @@ img {
 	padding-bottom: 7%;
 	padding-top: 6%;
 	background-color: rgba(0, 0, 0, 0.22)
+
 }
 
 /*..........top div..........*/
@@ -163,6 +164,7 @@ img {
 .mid h2 {
 	font-family: RobotoCondensed-Light;
 	font-size: 25px;
+
 }
 
 /*..........bottom div..........*/
@@ -188,6 +190,7 @@ img {
 
 .bottom h2 {
 	color: #00D936;
+
 }
 
 .bottom p {
